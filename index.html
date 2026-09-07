@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/64d104ae1b.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    
+    <title>Foodies Delight</title>
+</head>
+<body>
+
+<!-- HEADER -->
+  
+    <header>
+        <div class="logo">Foodie Delight</div>
+
+        <nav>
+            <ul class="sidebar">
+                <button class="hideonMobile" id="close-btn" onclick= hideSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="black"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></button>
+                
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="features.html">Features</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+                <a href="#" id="orderbtn" >Order Now</a>
+            </ul>
+            <ul class="nav-links">
+                <li class="hideonMobile"><a href="index.html">Home</a></li>
+                <li class="hideonMobile"><a href="menu.html">Menu</a></li>
+                <li class="hideonMobile"><a href="features.html">Features</a></li>
+                <li class="hideonMobile"><a href="contact.html">Contact</a></li>
+
+    
+                
+            </ul>
+        </nav>
+
+        <a href="#"  class="hideonMobile" id="orderbtn" >Order Now</a>
+        
+        <a href="#" class="menu-button" onclick=showSidebar() ><svg xmlns="http://www.w3.org/2000/svg" height="28px" viewBox="0 -960 960 960" width="28px" fill="black"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+        
+
+    </header>
+
+    <!-- HERO -->
+    <main>
+
+        <section class="hero">
+
+            <div class="hero-content">
+                <span class="kicker">FRESHLY PREPARED DAILY</span>
+                <h1>Delicious Food <span class="deliver">Delivered Fresh</span></h1>
+                <p>Discover the joy of cooking and the delight of eating. We bring chef-quality ingredients and simple instructions right to your doorstep.</p>
+
+                <div class="hero-cta">
+                    <a href="" class="order">Order Now</a>
+                    <a href="" class="view">View Menu</a>
+                </div>
+            </div>
+
+            <div class="hero-img">
+
+                <div class="shape"></div>
+                <img src="/media/fhero3.jpg" alt="Chef's Special Salad">
+
+                <span class="accent-leaf">🌿</span>
+
+                <div class="image-text">
+                    <h4>Chef's Special Salad</h4>
+                    <p>Organic & Farm Fresh</p>
+                </div>
+            </div>
+
+            
+        </section>
+ 
+        <!-- Features -->
+
+    <section class="features">
+
+            <h2>Why Choose Us?</h2>
+
+            <p class="section-text">
+                We simplify your culinary journey with premium services tailored for beginners.
+            </p>
+        
+        <div class="feature-card">
+            
+        
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-truck-fast"></i>
+                </div>
+                
+                <h3>Fast Delivery</h3>
+                <p>
+                    Your food arrives in under 30 minutes, keeping the heat and freshness intact for your enjoyment.
+                </p>
+
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-leaf"></i>
+                </div>
+                <h3>Fresh Ingredients</h3>
+                <p>We source directly from local organic farms to ensure every bite is packed with nutrients and flavor.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">
+                    <i class="fa-solid fa-money-bills"></i>
+                </div>
+                <h3>Affordable Prices</h3>
+                <p>Gourmet quality shouldn't break the bank. Enjoy restaurant-styule meals at home for a fraction of the cost.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MENU -->
+
+    <section class="menu">
+
+        <div class="menu-header">
+            <div>
+                <h2>Our Popular Menu</h2>
+                <h4>The most loved recipes by our foodie community.</h4>
+
+            </div>
+            <a href="#">Browse Full Menu ⟶</a>
+
+        </div>
+
+        <div class="menu-grid">
+
+            <div class="food-card">
+
+                <img src="/media/margherita.jpg" alt="Artian Margherita">
+
+                <h2>Artisan Margherita</h2>
+                <p>Aunthentic sourdough crust with house-made tomato sauce and fresh buffalo mozzarela.</p>
+                <button class="cart-btn">Add to Cart</button>
+
+            </div>
+
+            <div class="food-card">
+                <img src="/media/salmon.jpg" alt="Nordic Salmon Bowl">
+                <h2>Nordic Salmon Bowl</h2>
+                <p>Sustainably sourced salmon with brown rice, organic avocado, and our signature ginger-soy dressing.</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+
+            <div class="food-card">
+                <img src="/media/flapjacks.jpg" alt="Blueberry Cloud Flapjacks">
+                <h2>Blueberry Cloud Flapjacks</h2>
+                <p>Light and airy pancakes served with wild-caught blueberries and pure Vermont maple syrup.</p>
+                <button class="cart-btn">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+
+    <section class="testimonials">
+
+            <h2>Words from Foodies</h2>
+
+            <div class="testimonial-wrap">
+
+                <div  class="testimonial">
+                    
+
+                    <p>"As someone who barely knew how to boil water, Foodie Delight has been a game changer. The recipes are so clear, and the ingredients are incredibly fresh."</p>
+
+                    <i class="fa-solid fa-quote-right" id="test-icon"></i>
+                    <div class="testimonial-sub">
+                        <div class="profile">
+                            <img src="/media/woman.jpg">
+
+                            <div class="profile-info">
+                                <h5>Sarah Jenkins</h5>
+                                <span>Home Chef Beginner</span>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div  class="testimonial">
+                    
+
+                    <p>"The 30-minute delivery is actually 30 minutes! I can finally eat gourmet meals during my tight lunch breaks. Highly recommended."</p>
+
+                    <i class="fa-solid fa-quote-right" id="test-icon"></i>
+                    <div class="testimonial-sub">
+                        
+                        <div class="profile">
+                            <img src="/media/man.jpg">
+                            <div class="profile-info">
+                                <h5>Marcus Chen</h5>
+                                <span>Busy Professional</span>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        
+
+    </section>
+
+    <!-- CONTACT -->
+
+    <section class="contact">
+        <div class="contact-box">
+            <h2>Get in Touch</h2>
+            <p>Have questions or feedback?</p>
+
+            <form>
+
+                <div class="form-card">
+                    <div class="input-row">
+                        <div class="input-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" placeholder="John Doe">
+                        </div>
+
+                        <div class="input-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" placeholder="john@example.com">
+                        </div>
+                    </div>
+                    
+                    <div class="input-group">
+                        <label for="message" id="message">Your Message</label>
+                        <textarea placeholder="Your Message"></textarea>
+                    </div>
+                    
+
+                    <div class="send-msg">
+                        <button class="message-btn">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    </main>
+<!-- Footer -->
+    <footer>
+        <h3>Foodie Delight</h3>
+
+        <div class="footer-links">
+
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Us</a>
+
+        </div>
+
+        <div class="footer-icons">
+            <a><i class="fa-solid fa-earth-americas" style="color: orangered;"></i></a>
+
+            <a><i class="fa-regular fa-thumbs-up" style="color: orangered;"></i></a>
+
+            <a><i class="fa-brands fa-instagram" style="color: orangered;"></i></a>
+        </div>
+
+    </footer>
+
+    <script>
+        function showSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "flex"
+        }
+
+        function hideSidebar(){
+            const sidebar = document.querySelector(".sidebar")
+            sidebar.style.display = "none"
+        }
+    </script>
+</body>
+</html>
